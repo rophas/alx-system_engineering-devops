@@ -7,3 +7,4 @@ printenv lists environment variables.
 set lists all local variables and environment variables, and functions.
 BEST="School" creates a new local variable. Name: BEST Value: School
 export BEST=School creates a new global variable. Name: BEST Value: School
+echo $(($TRUEKNOWLEDGE + 128)) prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
