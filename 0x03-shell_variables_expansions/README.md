@@ -6,3 +6,4 @@ echo $PATH | tr : '\n' | grep -v '^$' | wc -l counts the number of directories i
 printenv lists environment variables.
 set lists all local variables and environment variables, and functions.
 BEST="School" creates a new local variable. Name: BEST Value: School
+echo $((2#$BEST School)) creates a new global variable. Name: BEST Value: School
